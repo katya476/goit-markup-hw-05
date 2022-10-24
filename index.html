@@ -19,10 +19,10 @@ referrerpolicy="no-referrer" />
       <div class="container">
         <nav class="nav-navigation-header">
           <a class="logo-link-header" href="index.html">Web<span class="accent-header">Studio</span></a>
-          <ul class="list-item">
-            <li class="nav-link"><a href="index.html" class="accent" >Студія</a></li>
-            <li class="nav-link"><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
-            <li class="nav-link"><a href="" class="nav-link">Контакти</a></li>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="index.html" class=" nav-link accent " >Студія</a></li>
+            <li class="nav-item"><a href="./portfolio.html"  class="nav-link" >Портфоліо</a></li>
+            <li class="nav-item"><a href=""  class="nav-link">Контакти</a></li>
           </ul>
         </nav>
         <div class="container-contacts"> 
@@ -44,7 +44,7 @@ referrerpolicy="no-referrer" />
       <section class="hero section">
         <div class="container"> 
       <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-      <button type="button" class="button-hero">Замовити послугу</button>
+      <button type="button" class="button-hero" data-modal-open>Замовити послугу</button>
     </div>
     </section>
   
@@ -293,14 +293,14 @@ referrerpolicy="no-referrer" />
 
                   <li class="team-soc-item">
                   <a class="team-soc-link" href=""><svg class="team-soc-icon"width="20" height="20">
-                  <use href="./imagens/icon.svg#icon-facebook"></use>
+                  <use href="./images/"></use>
                   </svg>
                   </a>
                   </li>
 
                    <li class="team-soc-item">
                    <a class="team-soc-link" href=""><svg class="team-soc-icon"width="20" height="20">
-                   <use href="./imagens/icon.svg#icon-linkedin"></use></svg> </a></li>
+                   <use href="./images/symbol-defs.svg#icon-linkedin"></use></svg> </a></li>
                   </ul>
                   </div>
                 
@@ -400,6 +400,14 @@ referrerpolicy="no-referrer" />
     
    
     </footer>
- 
+ <div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button tupe="button" class="button-close" data-modal-close >
+      <svg class="icon-close" width="11" height="11">
+        <use href="./imagens/icon.svg#icon-close" ></use>
+      </svg> </button>
+  </div>
+ </div>
+ <script src="./js/modal.js"></script>
   </body>
 </html>
