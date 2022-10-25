@@ -627,5 +627,26 @@
   visibility: hidden;
   pointer-events:none;
 }
-  
-  
+ /*----------modal label------------*/ 
+ .modal-input{
+  width: 100%;
+  height: 40px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  cursor: pointer;
+ }
+  .modal{
+    padding: 40px;
+  }
+  .modal-label{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  }
+  .icon.modal{
+    position:absolute;
+    display: inline-block;
+    top: 30px;
+    left: 15px;
+
+  }
